@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+#titulotabela {
+  text-align: center;
+  color: #4A1C8B;
+}
+
+.tab-pane {
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.container1 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: blue;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #4A1C8B;
+  border-color: #4A1C8B;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-bottom: solid #4A1C8B;
+  border-top: solid #4A1C8B;
+}
